@@ -38,7 +38,7 @@ namespace Skymey_stock_polygon_exchanges
                 try
                 {
                     gtd.GetExchangesFromPolygon();
-                    await Task.Delay(TimeSpan.FromSeconds(0));
+                    await Task.Delay(TimeSpan.FromHours(24));
                 }
                 catch (Exception ex)
                 {
